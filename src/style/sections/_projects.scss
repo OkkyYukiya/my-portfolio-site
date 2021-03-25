@@ -52,6 +52,7 @@
     &__image {
       width: 90%;
       margin: 0 auto;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
       @include respond(tab-land) {
         width: 100%;
